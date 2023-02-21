@@ -1,0 +1,188 @@
+*{
+  margin: 0; 
+  padding: 0; 
+  box-sizing: border-box; 
+  text-decoration: none; 
+  list-style: none;
+}
+
+@font-face {
+  font-family: Futura-heavy;
+  src: url('fonts/Futura\ Heavy.otf');
+}
+@font-face {
+  font-family:  Montreal;
+  src: url('fonts/NeueMontreal-Regular.otf');
+}
+
+@font-face {
+  font-family: Futura-book;
+  src: url('fonts/FuturaBook.otf');
+}
+
+
+
+body{
+ background-color:#f4f0ef;
+  font-family: Futura-book;
+}
+
+
+.containerAll{
+  max-width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+  
+}
+
+/*=========Loader=============*/
+
+/*.loader{
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loader .one{
+  width: 25px;
+  height: 25px;
+  background-color: crimson;
+  display: inline-block;
+  animation: fade ease-in-out 1s infinite;
+  opacity: 0;
+}
+
+@keyframes fade{
+  50%{
+    
+    opacity: 1;
+  }
+}
+
+.two{
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  background-color: crimson;
+  display: inline-block;
+  animation: grow ease-in-out 5s infinite;
+  display: none;
+}
+
+@keyframes grow{
+  0%{
+    width: 25px;
+    height: 25px;
+  }
+  
+  20%{
+    width: 400px;
+    height: 25px;
+  }
+  40%{
+    width: 400px;
+    height: 400px;
+  }
+  
+  60%{
+    width: 100%;
+    height: 100%;
+  }
+}
+*/
+
+
+.logo a{
+  color: crimson;
+  text-transform: uppercase;
+  
+}
+
+
+
+.nav{
+  position: fixed;
+  bottom: 5%;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav_list{
+  width: 80%;
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-evenly;
+  padding: 15px;
+  border-radius: 30px;
+  background-color: rgba(7, 33, 66, 0.3);
+  font-size: 15px;
+  
+  
+}
+
+.nav_list li a{
+  font-size: 1em;
+  color: White;
+  
+ 
+
+  
+}
+
+.encabezado{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  padding: 1rem;
+}
+
+.reloj{
+  
+}
+
+
+.header{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.hero{
+
+}
+
+.text_hero{
+  
+  text-align: center;
+  
+}
+
+.text_hero h1{
+  font-size: 70px;
+  line-height: 0.9;
+  font-family: Futura-heavy;
+
+}
+
+.text_hero p{
+  width: 270px;
+ font-size: 30px;
+ letter-spacing: 2px;
+ margin: 10px auto;
+ font-family: Futura-book;
+
+
+}
+
+
+
+
